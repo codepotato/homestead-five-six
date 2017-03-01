@@ -18,7 +18,7 @@ class Homestead
     config.vm.hostname = settings["hostname"] ||= "homestead"
 
     # Configure A Private Network IP
-    config.vm.network :private_network, ip: settings["ip"] ||= "192.168.10.10"
+    config.vm.network :private_network, ip: settings["ip"] ||= "192.168.10.11"
 
     # Configure Additional Networks
     if settings.has_key?("networks")
@@ -67,10 +67,10 @@ class Homestead
 
     # Default Port Forwarding
     default_ports = {
-      80   => 8000,
-      443  => 44300,
-      3306 => 33060,
-      5432 => 54320
+      80   => 8001,
+      443  => 44301,
+      3306 => 33061,
+      5432 => 54321
     }
 
     # Use Default Port Forwarding Unless Overridden
