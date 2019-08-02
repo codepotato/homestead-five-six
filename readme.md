@@ -11,13 +11,13 @@ For more information on how to setup homestead official documentation [it's loca
 
 # Copy Sites From Original Homestead
 
-```git clone https://github.com/mikerodham/homestead-five-six.git ~/Homestead56```
+```git clone https://github.com/codepotato/homestead-five-six.git ~/Homestead56```
 
 ```cd ~/Homestead56; cp -rv ~/.homestead/ ~/.homestead-56/; vagrant up```
 
 ## Or Setup Brand New Homestead56
 
- ```git clone https://github.com/mikerodham/homestead-five-six.git ~/Homestead56```
+ ```git clone https://github.com/codepotato/homestead-five-six.git ~/Homestead56```
 
 ```cd ~/Homestead56; bash init.sh; vagrant up```
 
